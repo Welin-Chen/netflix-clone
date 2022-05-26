@@ -9,6 +9,10 @@ const requests = {
   fetchHorrorMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=27`,
   fetchRomanceMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=99`,
+  fetchScienceFictionMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=878`,
+  fetchMysteryMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=9648`,
+  fetchMusicMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=10402`,
+  fetchAnimationMovies: `/discover/movie?api_key=${TMDB_API_KEY}&with_genres=16`,
 };
 
 export default requests;

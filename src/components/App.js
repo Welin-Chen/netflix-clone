@@ -17,6 +17,13 @@ function App() {
       />
       <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
+      <Row title="Animation Movies" fetchUrl={requests.fetchAnimationMovies} />
+      <Row
+        title="Science Fiction Movies"
+        fetchUrl={requests.fetchScienceFictionMovies}
+      />
+      <Row title="Mystery Movies" fetchUrl={requests.fetchMysteryMovies} />
+      <Row title="Music Movies" fetchUrl={requests.fetchMusicMovies} />
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
       <Row title="Comedy Movies" fetchUrl={requests.fetchComedyMovies} />
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
