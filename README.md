@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Demo/Site
+
+[Netfilx-clone](https://netflix-clone-6518f.web.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
